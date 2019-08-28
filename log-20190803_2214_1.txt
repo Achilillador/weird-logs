@@ -1,0 +1,100 @@
+08.03_21:49:47_071 DEBUG [TPush]                  apList.speedTestIpList serverItem ip:4092199863,port:80
+08.03_21:49:47_072 DEBUG [TPush]                  apList.speedTestIpList serverItem ip:4092199863,port:443
+08.03_21:49:47_072 DEBUG [TPush]                  apList.speedTestIpList serverItem ip:2119301946,port:8080
+08.03_21:49:47_072 DEBUG [TPush]                  apList.speedTestIpList serverItem ip:2119301946,port:14000
+08.03_21:49:47_072 DEBUG [TPush]                  apList.speedTestIpList serverItem ip:2119301946,port:80
+08.03_21:49:47_072 DEBUG [TPush]                  apList.speedTestIpList serverItem ip:2119301946,port:443
+08.03_21:49:47_072 DEBUG [TPush]                  apList.speedTestIpList serverItem ip:2992826551,port:8080
+08.03_21:49:47_073 DEBUG [TPush]                  apList.speedTestIpList serverItem ip:2992826551,port:14000
+08.03_21:49:47_073 DEBUG [TPush]                  apList.speedTestIpList serverItem ip:2992826551,port:80
+08.03_21:49:47_073 DEBUG [TPush]                  apList.speedTestIpList serverItem ip:2992826551,port:443
+08.03_21:50:05_047 INFO  [PushServiceManager]     main service pull up sloveSerice
+08.03_21:50:05_158 DEBUG [TPush]                  com.xm.csee.AUTH_XGPUSH,com.xm.csee,com.tencent.android.tpush.XGPushProvider
+08.03_21:50:05_196 INFO  [TPush]                  heartbeat to com.xm.csee
+08.03_21:50:05_282 INFO  [TPush]                  heartbeat com.xm.csee 
+08.03_21:50:05_302 WARN  [Util]                   pullUpOtherServiceByProviderAndActivityJSONOject com.tencent.mtt:service
+08.03_21:50:05_303 WARN  [Util]                   pullUpOtherServiceByProviderAndActivityJSONOject com.qq.xg4all:xg_vip_service
+08.03_21:50:05_304 WARN  [Util]                   pullUpOtherServiceByProviderAndActivityJSONOject com.xiaotun.doorbell:xg_vip_service
+08.03_21:50:05_305 WARN  [Util]                   pullUpOtherServiceByProviderAndActivityJSONOject com.yoosee:xg_vip_service
+08.03_21:50:05_307 WARN  [Util]                   pullUpOtherServiceByProviderAndActivityJSONOject com.bcm.poc:xg_vip_service
+08.03_21:50:05_308 WARN  [Util]                   pullUpOtherServiceByProviderAndActivityJSONOject com.wosai.cashbar.beta2:xg_vip_service
+08.03_21:50:05_309 WARN  [Util]                   pullUpOtherServiceByProviderAndActivityJSONOject com.wosai.cashbar:xg_vip_service
+08.03_21:51:12_238 DEBUG [XGPushReceiver]         PushReceiver received android.net.conn.CONNECTIVITY_CHANGE @@ com.xm.csee
+08.03_21:51:12_245 DEBUG [OptimalLinkSelector]    Connection state changed to - [type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SSID-NAME", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+08.03_21:51:12_246 DEBUG [OptimalLinkSelector]    Connected with network type WIFI
+08.03_21:51:14_262 TRACE [TpnsChannel]            Action -> checkAndSetupClient( tpnsClient = a(ip:203.205.211.75,port:8080,protocol:tcp), isClientCreating = false)
+08.03_21:51:15_523 DEBUG [XGPushReceiver]         PushReceiver received android.intent.action.USER_PRESENT @@ com.xm.csee
+08.03_21:51:15_631 TRACE [TpnsChannel]            Action -> checkAndSetupClient( tpnsClient = a(ip:203.205.211.75,port:8080,protocol:tcp), isClientCreating = false)
+08.03_21:52:42_486 DEBUG [XGPushReceiver]         PushReceiver received android.intent.action.USER_PRESENT @@ com.xm.csee
+08.03_21:52:42_615 TRACE [TpnsChannel]            Action -> checkAndSetupClient( tpnsClient = a(ip:203.205.211.75,port:8080,protocol:tcp), isClientCreating = false)
+08.03_21:52:47_050 DEBUG [TpnsChannel]            Action -> send heartbeat 
+08.03_21:52:47_052 TRACE [TpnsChannel]            Action -> checkAndSetupClient( tpnsClient = a(ip:203.205.211.75,port:8080,protocol:tcp), isClientCreating = false)
+08.03_21:52:47_161 DEBUG [TPush]                  com.xm.csee.AUTH_XGPUSH,com.xm.csee,com.tencent.android.tpush.XGPushProvider
+08.03_21:52:47_161 INFO  [TPush]                  heartbeat to com.xm.csee
+08.03_21:52:47_168 INFO  [TPush]                  heartbeat com.xm.csee 
+08.03_21:52:47_186 INFO  [TpnsChannel]            Service bi state {"srv_stime":1564890584580,"srv_etime":1564890767171,"srv_startTime":4,"srv_freason":[".keepalive",".keepalive",".keepalive",".keepalive"],"hb_suc":0,"hb_failed":0,"con_suc":1,"con_failed":0}
+08.03_21:52:47_195 DEBUG [TLocationManager]       Require the permissionandroid.permission.ACCESS_COARSE_LOCATION
+08.03_21:52:47_555 DEBUG [TpnsChannel]            Action -> clientDidReceivePacket packet : g protocol = 1 command = TPNS_COMMAND_PUSH isResponse = false packetLength = 46
+08.03_21:52:47_555 DEBUG [TpnsChannel]            Action -> clientDidReceivePacket PushMessageRunnable NEV1 : g protocol = 1 command = TPNS_COMMAND_PUSH isResponse = false packetLength = 46
+08.03_21:52:47_566 TRACE [SrvMessageManager]      receive msg from service msgId = 0 pkg =  size = 1
+08.03_21:52:47_567 DEBUG [SrvMessageManager]      distributeFromServer : accid=0,busiId=0,pkg=,msgId=0,type=0,ts=0,multi=0,date=,serverTime=0,ttl=0, size = 1
+08.03_21:52:47_567 TRACE [XGService]              @@ msgServiceAck: Not add LocalMsg
+08.03_21:52:47_567 DEBUG [SrvMessageManager]      >> messageDistribute, msg.appPkgName is null!
+08.03_21:56:51_728 DEBUG [TpnsChannel]            Action -> send heartbeat 
+08.03_21:56:51_728 TRACE [TpnsChannel]            Action -> checkAndSetupClient( tpnsClient = a(ip:203.205.211.75,port:8080,protocol:tcp), isClientCreating = false)
+08.03_21:56:52_153 DEBUG [TPush]                  com.xm.csee.AUTH_XGPUSH,com.xm.csee,com.tencent.android.tpush.XGPushProvider
+08.03_21:56:52_153 INFO  [TPush]                  heartbeat to com.xm.csee
+08.03_21:56:52_156 INFO  [TPush]                  heartbeat com.xm.csee 
+08.03_21:56:52_174 INFO  [TpnsChannel]            Service bi state {"srv_stime":1564890584580,"srv_etime":1564891012157,"srv_startTime":4,"srv_freason":[".keepalive",".keepalive",".keepalive",".keepalive"],"hb_suc":0,"hb_failed":0,"con_suc":1,"con_failed":0}
+08.03_21:56:53_315 DEBUG [TpnsChannel]            Action -> clientDidReceivePacket packet : g protocol = 1 command = TPNS_COMMAND_PUSH isResponse = false packetLength = 46
+08.03_21:56:53_315 DEBUG [TpnsChannel]            Action -> clientDidReceivePacket PushMessageRunnable NEV1 : g protocol = 1 command = TPNS_COMMAND_PUSH isResponse = false packetLength = 46
+08.03_21:56:53_324 TRACE [SrvMessageManager]      receive msg from service msgId = 0 pkg =  size = 1
+08.03_21:56:53_324 DEBUG [SrvMessageManager]      distributeFromServer : accid=0,busiId=0,pkg=,msgId=0,type=0,ts=0,multi=0,date=,serverTime=0,ttl=0, size = 1
+08.03_21:56:53_324 TRACE [XGService]              @@ msgServiceAck: Not add LocalMsg
+08.03_21:56:53_324 DEBUG [SrvMessageManager]      >> messageDistribute, msg.appPkgName is null!
+08.03_22:00:24_542 DEBUG [XGPushReceiver]         PushReceiver received android.intent.action.USER_PRESENT @@ com.xm.csee
+08.03_22:00:24_665 TRACE [TpnsChannel]            Action -> checkAndSetupClient( tpnsClient = a(ip:203.205.211.75,port:8080,protocol:tcp), isClientCreating = false)
+08.03_22:04:34_501 DEBUG [TpnsChannel]            Action -> send heartbeat 
+08.03_22:04:34_504 TRACE [TpnsChannel]            Action -> checkAndSetupClient( tpnsClient = a(ip:203.205.211.75,port:8080,protocol:tcp), isClientCreating = false)
+08.03_22:04:34_628 DEBUG [TPush]                  com.xm.csee.AUTH_XGPUSH,com.xm.csee,com.tencent.android.tpush.XGPushProvider
+08.03_22:04:34_629 INFO  [TPush]                  heartbeat to com.xm.csee
+08.03_22:04:34_632 INFO  [TPush]                  heartbeat com.xm.csee 
+08.03_22:04:34_662 INFO  [TpnsChannel]            Service bi state {"srv_stime":1564890584580,"srv_etime":1564891474634,"srv_startTime":5,"srv_freason":[".keepalive",".keepalive",".keepalive",".keepalive",".keepalive"],"hb_suc":0,"hb_failed":0,"con_suc":1,"con_failed":0}
+08.03_22:04:35_385 DEBUG [TpnsChannel]            Action -> clientDidReceivePacket packet : g protocol = 1 command = TPNS_COMMAND_PUSH isResponse = false packetLength = 46
+08.03_22:04:35_386 DEBUG [TpnsChannel]            Action -> clientDidReceivePacket PushMessageRunnable NEV1 : g protocol = 1 command = TPNS_COMMAND_PUSH isResponse = false packetLength = 46
+08.03_22:04:35_396 TRACE [SrvMessageManager]      receive msg from service msgId = 0 pkg =  size = 1
+08.03_22:04:35_396 DEBUG [SrvMessageManager]      distributeFromServer : accid=0,busiId=0,pkg=,msgId=0,type=0,ts=0,multi=0,date=,serverTime=0,ttl=0, size = 1
+08.03_22:04:35_396 TRACE [XGService]              @@ msgServiceAck: Not add LocalMsg
+08.03_22:04:35_397 DEBUG [SrvMessageManager]      >> messageDistribute, msg.appPkgName is null!
+08.03_22:07:38_528 DEBUG [TpnsChannel]            Action -> send heartbeat 
+08.03_22:07:38_536 TRACE [TpnsChannel]            Action -> checkAndSetupClient( tpnsClient = a(ip:203.205.211.75,port:8080,protocol:tcp), isClientCreating = false)
+08.03_22:07:38_632 DEBUG [TPush]                  com.xm.csee.AUTH_XGPUSH,com.xm.csee,com.tencent.android.tpush.XGPushProvider
+08.03_22:07:38_632 INFO  [TPush]                  heartbeat to com.xm.csee
+08.03_22:07:38_636 INFO  [TPush]                  heartbeat com.xm.csee 
+08.03_22:07:38_663 INFO  [TpnsChannel]            Service bi state {"srv_stime":1564890584580,"srv_etime":1564891658637,"srv_startTime":5,"srv_freason":[".keepalive",".keepalive",".keepalive",".keepalive",".keepalive"],"hb_suc":0,"hb_failed":0,"con_suc":1,"con_failed":0}
+08.03_22:07:39_100 DEBUG [TpnsChannel]            Action -> clientDidReceivePacket packet : g protocol = 1 command = TPNS_COMMAND_PUSH isResponse = false packetLength = 46
+08.03_22:07:39_100 DEBUG [TpnsChannel]            Action -> clientDidReceivePacket PushMessageRunnable NEV1 : g protocol = 1 command = TPNS_COMMAND_PUSH isResponse = false packetLength = 46
+08.03_22:07:39_106 TRACE [SrvMessageManager]      receive msg from service msgId = 0 pkg =  size = 1
+08.03_22:07:39_107 DEBUG [SrvMessageManager]      distributeFromServer : accid=0,busiId=0,pkg=,msgId=0,type=0,ts=0,multi=0,date=,serverTime=0,ttl=0, size = 1
+08.03_22:07:39_107 TRACE [XGService]              @@ msgServiceAck: Not add LocalMsg
+08.03_22:07:39_107 DEBUG [SrvMessageManager]      >> messageDistribute, msg.appPkgName is null!
+08.03_22:10:59_047 DEBUG [TpnsChannel]            Action -> send heartbeat 
+08.03_22:10:59_063 TRACE [TpnsChannel]            Action -> checkAndSetupClient( tpnsClient = a(ip:203.205.211.75,port:8080,protocol:tcp), isClientCreating = false)
+08.03_22:10:59_250 DEBUG [TPush]                  com.xm.csee.AUTH_XGPUSH,com.xm.csee,com.tencent.android.tpush.XGPushProvider
+08.03_22:10:59_251 INFO  [TPush]                  heartbeat to com.xm.csee
+08.03_22:10:59_259 INFO  [TPush]                  heartbeat com.xm.csee 
+08.03_22:10:59_380 INFO  [TpnsChannel]            Service bi state {"srv_stime":1564890584580,"srv_etime":1564891859260,"srv_startTime":5,"srv_freason":[".keepalive",".keepalive",".keepalive",".keepalive",".keepalive"],"hb_suc":0,"hb_failed":0,"con_suc":1,"con_failed":0}
+08.03_22:10:59_724 DEBUG [TpnsChannel]            Action -> clientDidReceivePacket packet : g protocol = 1 command = TPNS_COMMAND_PUSH isResponse = false packetLength = 46
+08.03_22:10:59_725 DEBUG [TpnsChannel]            Action -> clientDidReceivePacket PushMessageRunnable NEV1 : g protocol = 1 command = TPNS_COMMAND_PUSH isResponse = false packetLength = 46
+08.03_22:10:59_729 TRACE [SrvMessageManager]      receive msg from service msgId = 0 pkg =  size = 1
+08.03_22:10:59_730 DEBUG [SrvMessageManager]      distributeFromServer : accid=0,busiId=0,pkg=,msgId=0,type=0,ts=0,multi=0,date=,serverTime=0,ttl=0, size = 1
+08.03_22:10:59_730 TRACE [XGService]              @@ msgServiceAck: Not add LocalMsg
+08.03_22:10:59_730 DEBUG [SrvMessageManager]      >> messageDistribute, msg.appPkgName is null!
+08.03_22:14:07_526 DEBUG [TpnsChannel]            Action -> send heartbeat 
+08.03_22:14:07_529 TRACE [TpnsChannel]            Action -> checkAndSetupClient( tpnsClient = a(ip:203.205.211.75,port:8080,protocol:tcp), isClientCreating = false)
+08.03_22:14:07_612 DEBUG [TPush]                  com.xm.csee.AUTH_XGPUSH,com.xm.csee,com.tencent.android.tpush.XGPushProvider
+08.03_22:14:07_613 INFO  [TPush]                  heartbeat to com.xm.csee
+08.03_22:14:07_622 INFO  [TPush]                  heartbeat com.xm.csee 
+08.03_22:14:07_633 INFO  [TpnsChannel]            Service bi state {"srv_stime":1564890584580,"srv_etime":1564892047623,"srv_startTime":5,"srv_freason":[".keepalive",".keepalive",".keepalive",".keepalive",".keepalive"],"hb_suc":0,"hb_failed":0,"con_suc":1,"con_failed":0}
+08.03_22:14:07_899 DEBUG [TpnsChannel]            Action -> clientDidReceivePacket packet : g protocol = 1 command = TPNS_COMMAND_PUSH isResponse = false packetLength = 46
+08.03_22:14:07_900 DEBUG [TpnsChannel]            Action -> clientDidReceivePacket PushMessageRunnable NEV1 : g protocol = 1 command = TPNS_COMMAND_PUSH isResponse = false packetLength = 46

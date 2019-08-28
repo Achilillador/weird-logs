@@ -1,0 +1,129 @@
+08.01_15:06:45_299 TRACE [TpnsChannel]            Action -> checkAndSetupClient( tpnsClient = null, isClientCreating = false)
+08.01_15:06:45_299 DEBUG [XGHorse]                Action ->  createOptimalSocketChannel run
+08.01_15:06:45_405 DEBUG [XGHorse]                Using the optStrategyItemserverIp=203.205.146.122,serverPort=8080, proxyIp=,proxyPort=80, protocolType=tcp, redirect=0
+08.01_15:06:45_416 DEBUG [BaseTask]               startTask() with strategyItems size = 1
+08.01_15:06:45_443 DEBUG [HorseThread]             HorseThread:cThread[Thread-237,5,main]current NetworkType:3,strategyItem:serverIp=203.205.146.122,serverPort=8080, proxyIp=,proxyPort=80, protocolType=tcp, redirect=0
+08.01_15:06:45_449 DEBUG [httpDns]                cacheResult:{"ips":"203.205.146.122;203.205.211.75","ttl":300,"exp":1564685588108},diff:-8017341
+08.01_15:06:45_450 WARN  [httpDns]                cacheResult Exp.
+08.01_15:06:48_723 DEBUG [httpDns]                getAddrByName line:3eeef9bfa6f89c851b5b480425bb34c85bf695a9b085526cd913ba1dd733eb3ab48b22aa98aa5d25
+08.01_15:06:48_749 DEBUG [httpDns]                ttl:300,300
+08.01_15:06:48_762 DEBUG [httpDns]                cacheResult:{"ips":"203.205.211.75;203.205.146.122","ttl":300,"exp":1564693908750},diff:299988
+08.01_15:06:48_771 DEBUG [SocketClient]           use httpdns StrategyItem:203.205.146.122:80
+08.01_15:06:48_777 DEBUG [SocketClient]           connect to 203.205.146.122:80
+08.01_15:07:19_271 ERROR [SocketClient]           SocketClient -> recv 
+08.01_15:07:19_271 ERRORjava.net.SocketTimeoutException
+	at java.net.PlainSocketImpl.read(PlainSocketImpl.java:488)
+	at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:37)
+	at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:237)
+	at java.nio.SocketChannelImpl$BlockingCheckInputStream.read(SocketChannelImpl.java:646)
+	at com.tencent.android.tpush.horse.n.b(ProGuard:249)
+	at com.tencent.android.tpush.horse.c.run(ProGuard:185)
+
+08.01_15:07:19_285 ERROR [BaseTask]               Horse onFail(serverIp=203.205.146.122,serverPort=80, proxyIp=,proxyPort=80, protocolType=tcp, redirect=0)
+08.01_15:07:19_359 DEBUG [OptimalLinkSelector]    Action -> startHorseTask with key = 03
+08.01_15:07:20_434 DEBUG [TpnsChannel]            Action -> send heartbeat 
+08.01_15:07:20_435 TRACE [TpnsChannel]            Action -> checkAndSetupClient( tpnsClient = null, isClientCreating = true)
+08.01_15:07:20_528 DEBUG [TPush]                  com.xm.csee.AUTH_XGPUSH,com.xm.csee,com.tencent.android.tpush.XGPushProvider
+08.01_15:07:20_529 INFO  [TPush]                  heartbeat to com.xm.csee
+08.01_15:07:20_538 INFO  [TPush]                  heartbeat com.xm.csee 
+08.01_15:07:20_553 INFO  [TpnsChannel]            Service bi state {"srv_stime":1564685285669,"srv_etime":1564693640538,"srv_startTime":19,"srv_freason":[".keepalive",".keepalive",".keepalive",".keepalive",".stop_connect",".keepalive",".keepalive",".keepalive",".keepalive",".stop_connect"],"hb_suc":0,"hb_failed":26,"hb_freason":[{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1}],"con_suc":1,"con_failed":38,"con_freason":[{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1}]}
+08.01_15:07:21_734 DEBUG [OptimalLinkSelector]    Tools.getChannelType = 0
+08.01_15:07:21_735 DEBUG [OptimalLinkSelector]    XINGE Use TcpTask
+08.01_15:07:21_740 ERROR [XGService]              getStrategyItems is null
+08.01_15:07:21_740 DEBUG [BaseTask]               startTask() with strategyItems size = 28
+08.01_15:07:21_751 ERROR [HorseThread]            HorseThread error
+08.01_15:07:21_751 ERRORcom.tencent.android.tpush.service.channel.exception.HorseIgnoreException: java.net.SocketTimeoutException
+	at com.tencent.android.tpush.horse.n.b(ProGuard:261)
+	at com.tencent.android.tpush.horse.c.run(ProGuard:185)
+Caused by: java.net.SocketTimeoutException
+	at java.net.PlainSocketImpl.read(PlainSocketImpl.java:488)
+	at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:37)
+	at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:237)
+	at java.nio.SocketChannelImpl$BlockingCheckInputStream.read(SocketChannelImpl.java:646)
+	at com.tencent.android.tpush.horse.n.b(ProGuard:249)
+	... 1 more
+
+08.01_15:07:21_769 DEBUG [HorseThread]             HorseThread:cThread[Thread-237,5,main]current NetworkType:3,strategyItem:serverIp=203.205.146.122,serverPort=8080, proxyIp=,proxyPort=80, protocolType=tcp, redirect=0
+08.01_15:07:21_774 DEBUG [httpDns]                cacheResult:{"ips":"203.205.211.75;203.205.146.122","ttl":300,"exp":1564693908750},diff:266976
+08.01_15:07:21_775 DEBUG [SocketClient]           use httpdns StrategyItem:203.205.211.75:14000
+08.01_15:07:21_778 DEBUG [SocketClient]           connect to 203.205.211.75:14000
+08.01_15:07:24_939 TRACE [BaseTask]               Horse run onRedirect(org:serverIp=203.205.211.75,serverPort=14000, proxyIp=,proxyPort=80, protocolType=tcp, redirect=0,redirect:serverIp=203.205.146.122,serverPort=80, proxyIp=,proxyPort=80, protocolType=tcp, redirect=1)
+08.01_15:07:25_071 TRACE [TpnsChannel]            ICreateSocketChannelCallback onSuccess(java.nio.SocketChannelImpl@38806832,java.nio.SocketChannelImpl@38806832)
+08.01_15:07:25_081 INFO  [TpnsClient]             Connect to Xinge Server succeed!
+08.01_15:07:25_107 DEBUG [TpnsChannel]            Action -> sendReconnMessage with token - 1af22fd9686fb7f9abb0c1729984bf0b9155d11a
+08.01_15:07:25_108 TRACE [TpnsChannel]            Action -> checkAndSetupClient( tpnsClient = a(ip:203.205.211.75,port:14000,protocol:tcp), isClientCreating = false)
+08.01_15:07:25_119 INFO  [TpnsClient]             TpnsClient is running and ready for send and recevie msg.
+08.01_15:07:25_121 DEBUG [HorseThread]             HorseThread:cThread[Thread-237,5,main]current NetworkType:3,strategyItem:serverIp=203.205.146.122,serverPort=80, proxyIp=,proxyPort=80, protocolType=tcp, redirect=1
+08.01_15:07:25_126 DEBUG [httpDns]                cacheResult:{"ips":"203.205.211.75;203.205.146.122","ttl":300,"exp":1564693908750},diff:263624
+08.01_15:07:25_127 DEBUG [SocketClient]           use httpdns StrategyItem:203.205.211.75:443
+08.01_15:07:25_130 DEBUG [SocketClient]           connect to 203.205.211.75:443
+08.01_15:07:25_259 DEBUG [TpnsChannel]            Action -> clientDidSendPacket packet : h protocol = 1 command = TPNS_COMMAND_RECONNECT isResponse = false packetLength = 818
+08.01_15:07:25_716 DEBUG [TpnsChannel]            Action -> clientDidReceivePacket packet : g protocol = 1 command = TPNS_COMMAND_RECONNECT isResponse = true packetLength = 20
+08.01_15:07:25_716 DEBUG [TpnsChannel]            Action -> clientDidReceivePacket RequestSuccRunnable NEV1 : g protocol = 1 command = TPNS_COMMAND_RECONNECT isResponse = true packetLength = 20
+08.01_15:07:25_719 DEBUG [PushServiceNetworkHandler] reconnCallback onResponse request:token: 1af22fd9686fb7f9abb0c1729984bf0b9155d11a
+08.01_15:07:25_719 DEBUG [PushServiceNetworkHandler] deviceId: dff6795550305bc9cbfe5dbffe1b2d5b
+08.01_15:07:25_719 DEBUG [PushServiceNetworkHandler] networkType: 3
+08.01_15:07:25_719 DEBUG [PushServiceNetworkHandler] unregInfoList: 0, []
+08.01_15:07:25_719 DEBUG [PushServiceNetworkHandler] recvMsgList: 0, []
+08.01_15:07:25_719 DEBUG [PushServiceNetworkHandler] mutableInfo: {
+08.01_15:07:25_719 DEBUG [PushServiceNetworkHandler] 	ssid: 
+08.01_15:07:25_719 DEBUG [PushServiceNetworkHandler] 	bssid: 
+08.01_15:07:25_719 DEBUG [PushServiceNetworkHandler] 	mac: 20:2D:07:6D:1E:52
+08.01_15:07:25_719 DEBUG [PushServiceNetworkHandler] 	wflist: [{"bs":"e0:cb:bc:96:59:7d","ss":"APOYO MULTICANALIDAD"},{"bs":"e6:cb:bc:96:59:7d","ss":"SANTANDER"},{"bs":"e0:cb:bc:96:59:7d","ss":""},{"bs":"e6:cb:bc:96:59:7d","ss":""},{"bs":"60:f1:8a:8c:b1:0c","ss":"INFINITUM679D_2.4"},{"bs":"c8:f8:6d:ab:6e:28","ss":"INFINITUMD84A"},{"bs":"cc:2d:e0:e0:49:6f","ss":"Clientes"},{"bs":"d4:68:4d:1f:16:68","ss":"*.Megacable WiFi.*"},{"bs":"76:60:fa:3f:ef:f8","ss":"HUAWEI Y6 2019"},{"bs":"54:a6:19:63:1f:b0","ss":"INFINITUMACA0"}]
+08.01_15:07:25_719 DEBUG [PushServiceNetworkHandler] }
+08.01_15:07:25_719 DEBUG [PushServiceNetworkHandler] deviceType: 0
+08.01_15:07:25_719 DEBUG [PushServiceNetworkHandler] msgClickList: null	sdkVersion: 3.26
+08.01_15:07:25_719 DEBUG [PushServiceNetworkHandler] reserved: {"new_mid":"1af22fd9686fb7f9abb0c1729984bf0b9155d11a","new_mid_v":"4.06"}
+08.01_15:07:25_719 DEBUG [PushServiceNetworkHandler] connVersion: 3
+08.01_15:07:25_719 DEBUG [PushServiceNetworkHandler] guid: 11098807404
+08.01_15:07:25_719 DEBUG [PushServiceNetworkHandler] , responseCode:0, response:confVersion: 32
+08.01_15:07:25_719 DEBUG [PushServiceNetworkHandler] appOfflinePushMsgList: 0, []
+08.01_15:07:25_719 DEBUG [PushServiceNetworkHandler] timeUs: 1564693616404159
+08.01_15:07:25_720 DEBUG [PushServiceNetworkHandler] reconnCallback onResponse rsp==null?:false
+08.01_15:07:25_721 DEBUG [PushServiceNetworkHandler] loadIPList :32
+08.01_15:07:26_021 TRACE [BaseTask]               Horse run onRedirect(org:serverIp=203.205.211.75,serverPort=443, proxyIp=,proxyPort=80, protocolType=tcp, redirect=0,redirect:serverIp=203.205.146.122,serverPort=8080, proxyIp=,proxyPort=80, protocolType=tcp, redirect=1)
+08.01_15:07:26_022 DEBUG [XGHorse]                >> hasSuccessCallback && !strategyItem.isRedirected()
+08.01_15:07:26_081 DEBUG [TpnsChannel]            Action -> clientDidReceivePacket packet : g protocol = 1 command = TPNS_COMMAND_PUSH isResponse = false packetLength = 46
+08.01_15:07:26_082 DEBUG [TpnsChannel]            Action -> clientDidReceivePacket PushMessageRunnable NEV1 : g protocol = 1 command = TPNS_COMMAND_PUSH isResponse = false packetLength = 46
+08.01_15:07:26_091 TRACE [SrvMessageManager]      receive msg from service msgId = 0 pkg =  size = 1
+08.01_15:07:26_091 DEBUG [SrvMessageManager]      distributeFromServer : accid=0,busiId=0,pkg=,msgId=0,type=0,ts=0,multi=0,date=,serverTime=0,ttl=0, size = 1
+08.01_15:07:26_091 TRACE [XGService]              @@ msgServiceAck: Not add LocalMsg
+08.01_15:07:26_091 DEBUG [SrvMessageManager]      >> messageDistribute, msg.appPkgName is null!
+08.01_15:12:16_132 DEBUG [TpnsChannel]            Action -> send heartbeat 
+08.01_15:12:16_205 TRACE [TpnsChannel]            Action -> checkAndSetupClient( tpnsClient = a(ip:203.205.211.75,port:14000,protocol:tcp), isClientCreating = false)
+08.01_15:12:17_202 DEBUG [TPush]                  com.xm.csee.AUTH_XGPUSH,com.xm.csee,com.tencent.android.tpush.XGPushProvider
+08.01_15:12:17_202 INFO  [TPush]                  heartbeat to com.xm.csee
+08.01_15:12:17_302 INFO  [TPush]                  heartbeat com.xm.csee 
+08.01_15:12:17_372 INFO  [TpnsChannel]            Service bi state {"srv_stime":1564685285669,"srv_etime":1564693937304,"srv_startTime":19,"srv_freason":[".keepalive",".keepalive",".keepalive",".keepalive",".stop_connect",".keepalive",".keepalive",".keepalive",".keepalive",".stop_connect"],"hb_suc":0,"hb_failed":26,"hb_freason":[{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1}],"con_suc":2,"con_failed":38,"con_freason":[{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1}]}
+08.01_15:12:19_561 DEBUG [TpnsChannel]            Action -> clientDidReceivePacket packet : g protocol = 1 command = TPNS_COMMAND_PUSH isResponse = false packetLength = 46
+08.01_15:12:19_562 DEBUG [TpnsChannel]            Action -> clientDidReceivePacket PushMessageRunnable NEV1 : g protocol = 1 command = TPNS_COMMAND_PUSH isResponse = false packetLength = 46
+08.01_15:12:19_657 TRACE [SrvMessageManager]      receive msg from service msgId = 0 pkg =  size = 1
+08.01_15:12:19_658 DEBUG [SrvMessageManager]      distributeFromServer : accid=0,busiId=0,pkg=,msgId=0,type=0,ts=0,multi=0,date=,serverTime=0,ttl=0, size = 1
+08.01_15:12:19_658 TRACE [XGService]              @@ msgServiceAck: Not add LocalMsg
+08.01_15:12:19_658 DEBUG [SrvMessageManager]      >> messageDistribute, msg.appPkgName is null!
+08.01_15:17:23_119 ERROR [TpnsClient]             <<< Run <<< socketChannel IOException
+08.01_15:17:23_119 ERRORjava.net.SocketException: recvfrom failed: ECONNRESET (Connection reset by peer)
+	at libcore.io.IoBridge.maybeThrowAfterRecvfrom(IoBridge.java:592)
+	at libcore.io.IoBridge.recvfrom(IoBridge.java:568)
+	at java.nio.SocketChannelImpl.readImpl(SocketChannelImpl.java:342)
+	at java.nio.SocketChannelImpl.read(SocketChannelImpl.java:304)
+	at com.tencent.android.tpush.service.channel.a.a.run(ProGuard:199)
+Caused by: android.system.ErrnoException: recvfrom failed: ECONNRESET (Connection reset by peer)
+	at libcore.io.Posix.recvfromBytes(Native Method)
+	at libcore.io.Posix.recvfrom(Posix.java:175)
+	at libcore.io.BlockGuardOs.recvfrom(BlockGuardOs.java:245)
+	at libcore.io.IoBridge.recvfrom(IoBridge.java:565)
+	... 3 more
+
+08.01_15:17:23_190 ERROR [TpnsClient]             delegate.clientExceptionOccurs <<< Run <<< exit!!! cause: com.tencent.android.tpush.service.channel.exception.ChannelException: TpnsClient发生IO异常，链路可能被关闭
+08.01_15:17:23_301 ERROR [TpnsChannel]            clientExceptionOccurs(isHttpClient : false,com.tencent.android.tpush.service.channel.exception.ChannelException: TpnsClient发生IO异常，链路可能被关闭)
+08.01_15:17:23_478 INFO  [TpnsChannel]            Service bi state {"srv_stime":1564685285669,"srv_etime":1564694243350,"srv_startTime":19,"srv_freason":[".keepalive",".keepalive",".keepalive",".keepalive",".stop_connect",".keepalive",".keepalive",".keepalive",".keepalive",".stop_connect"],"hb_suc":0,"hb_failed":26,"hb_freason":[{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1}],"con_suc":2,"con_failed":39,"con_freason":[{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1}]}
+08.01_15:18:07_661 DEBUG [TpnsChannel]            Action -> send heartbeat 
+08.01_15:18:07_661 TRACE [TpnsChannel]            Action -> checkAndSetupClient( tpnsClient = null, isClientCreating = false)
+08.01_15:18:07_663 DEBUG [XGHorse]                Action ->  createOptimalSocketChannel run
+08.01_15:18:07_795 DEBUG [XGHorse]                Using the optStrategyItemserverIp=203.205.211.75,serverPort=14000, proxyIp=,proxyPort=80, protocolType=tcp, redirect=0
+08.01_15:18:07_816 DEBUG [BaseTask]               startTask() with strategyItems size = 1
+08.01_15:18:07_847 DEBUG [HorseThread]             HorseThread:cThread[Thread-244,5,main]current NetworkType:3,strategyItem:serverIp=203.205.211.75,serverPort=14000, proxyIp=,proxyPort=80, protocolType=tcp, redirect=0
+08.01_15:18:07_853 DEBUG [httpDns]                cacheResult:{"ips":"203.205.211.75;203.205.146.122","ttl":300,"exp":1564693908750},diff:-379103
+08.01_15:18:07_853 WARN  [httpDns]                cacheResult Exp.
+08.01_15:18:07_878 DEBUG [TPush]                  com.xm.csee.AUTH_XGPUSH,com.xm.csee,com.tencent.android.tpush.XGPushProvider

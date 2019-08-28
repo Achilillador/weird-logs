@@ -1,0 +1,120 @@
+08.06_08:06:04_567 DEBUG [XGPushService]          reportLastServiceState {"srv_stime":1564890584580,"srv_etime":1564893936520,"srv_startTime":8,"srv_freason":[".keepalive",".keepalive",".keepalive",".keepalive",".keepalive",".keepalive",".keepalive",".keepalive"],"hb_suc":0,"hb_failed":0,"con_suc":1,"con_failed":0}
+08.06_08:06:04_647 DEBUG [TPush]                  com.xm.csee.AUTH_XGPUSH,com.xm.csee,com.tencent.android.tpush.XGPushProvider
+08.06_08:06:05_358 TRACE [PushServiceManager]     (ignore) running v3 service count 0
+08.06_08:06:05_366 TRACE [PushServiceManager]     tryToKeepServiceAlive socketFinalName:ade572bd8bdee4b85d5361556c2fa61af22fd9686fb7f9abb0c1729984bf0b9155d11a
+08.06_08:06:05_372 INFO  [aa]                     is xg_service
+08.06_08:06:05_374 INFO  [PushServiceManager]     start as main service......
+08.06_08:06:05_374 INFO  [PushServiceManager]     Service's first running at com.xm.csee version : 3.26
+08.06_08:06:05_577 TRACE [TpnsChannel]            Action -> checkAndSetupClient( tpnsClient = null, isClientCreating = false)
+08.06_08:06:05_579 DEBUG [XGHorse]                Action ->  createOptimalSocketChannel run
+08.06_08:06:05_591 ERROR [XGHorse]                createOptimalSocketChannel error
+08.06_08:06:05_591 ERRORcom.tencent.android.tpush.service.channel.exception.NullReturnException: getOptStrategyList return null,deserialize err
+	at com.tencent.android.tpush.service.cache.CacheManager.getOptStrategyList(ProGuard:732)
+	at com.tencent.android.tpush.horse.h.run(ProGuard:135)
+	at android.os.Handler.handleCallback(Handler.java:739)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:135)
+	at android.os.HandlerThread.run(HandlerThread.java:61)
+Caused by: com.tencent.android.tpush.service.channel.exception.NullReturnException: getStrategy return null, because serializer object is not instanceof OptStrategyList
+	at com.tencent.android.tpush.service.cache.CacheManager.getOptStrategyList(ProGuard:728)
+	... 5 more
+
+08.06_08:06:05_614 ERROR [OptimalLinkSelector]    Network can't reachable
+08.06_08:06:05_614 ERROR [TpnsChannel]            ICreateSocketChannelCallback onFailure(10100,network can't reachable!)
+08.06_08:06:05_616 INFO  [TpnsChannel]            Connect to Xinge Server failed!
+08.06_08:06:25_599 INFO  [PushServiceManager]     main service pull up sloveSerice
+08.06_08:06:25_748 DEBUG [TPush]                  com.xm.csee.AUTH_XGPUSH,com.xm.csee,com.tencent.android.tpush.XGPushProvider
+08.06_08:06:25_749 INFO  [TPush]                  heartbeat to com.xm.csee
+08.06_08:06:25_870 INFO  [TPush]                  heartbeat com.xm.csee 
+08.06_08:06:25_960 WARN  [Util]                   pullUpOtherServiceByProviderAndActivityJSONOject com.tencent.mtt:service
+08.06_08:06:25_964 WARN  [Util]                   pullUpOtherServiceByProviderAndActivityJSONOject com.qq.xg4all:xg_vip_service
+08.06_08:06:25_966 WARN  [Util]                   pullUpOtherServiceByProviderAndActivityJSONOject com.xiaotun.doorbell:xg_vip_service
+08.06_08:06:25_968 WARN  [Util]                   pullUpOtherServiceByProviderAndActivityJSONOject com.yoosee:xg_vip_service
+08.06_08:06:25_970 WARN  [Util]                   pullUpOtherServiceByProviderAndActivityJSONOject com.bcm.poc:xg_vip_service
+08.06_08:06:25_971 WARN  [Util]                   pullUpOtherServiceByProviderAndActivityJSONOject com.wosai.cashbar.beta2:xg_vip_service
+08.06_08:06:25_972 WARN  [Util]                   pullUpOtherServiceByProviderAndActivityJSONOject com.wosai.cashbar:xg_vip_service
+08.06_08:08:30_064 DEBUG [XGPushReceiver]         PushReceiver received android.intent.action.USER_PRESENT @@ com.xm.csee
+08.06_08:08:30_252 TRACE [TpnsChannel]            Action -> checkAndSetupClient( tpnsClient = null, isClientCreating = false)
+08.06_08:08:30_253 DEBUG [XGHorse]                Action ->  createOptimalSocketChannel run
+08.06_08:08:30_507 ERROR [XGHorse]                createOptimalSocketChannel error
+08.06_08:08:30_507 ERRORcom.tencent.android.tpush.service.channel.exception.NullReturnException: getOptStrategyList return null,deserialize err
+	at com.tencent.android.tpush.service.cache.CacheManager.getOptStrategyList(ProGuard:732)
+	at com.tencent.android.tpush.horse.h.run(ProGuard:135)
+	at android.os.Handler.handleCallback(Handler.java:739)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:135)
+	at android.os.HandlerThread.run(HandlerThread.java:61)
+Caused by: com.tencent.android.tpush.service.channel.exception.NullReturnException: getStrategy return null, because serializer object is not instanceof OptStrategyList
+	at com.tencent.android.tpush.service.cache.CacheManager.getOptStrategyList(ProGuard:728)
+	... 5 more
+
+08.06_08:08:30_529 ERROR [OptimalLinkSelector]    Network can't reachable
+08.06_08:08:30_529 ERROR [TpnsChannel]            ICreateSocketChannelCallback onFailure(10100,network can't reachable!)
+08.06_08:08:30_530 INFO  [TpnsChannel]            Connect to Xinge Server failed!
+08.06_08:09:58_317 DEBUG [XGPushReceiver]         PushReceiver received android.net.conn.CONNECTIVITY_CHANGE @@ com.xm.csee
+08.06_08:09:58_333 DEBUG [OptimalLinkSelector]    Connection state changed to - [type: WIFI[] - WIFI, state: CONNECTED/CONNECTED, reason: (unspecified), extra: "SSID-NAME", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false]
+08.06_08:09:58_334 DEBUG [OptimalLinkSelector]    Connected with network type WIFI
+08.06_08:10:00_350 TRACE [TpnsChannel]            Action -> checkAndSetupClient( tpnsClient = null, isClientCreating = false)
+08.06_08:10:00_351 DEBUG [XGHorse]                Action ->  createOptimalSocketChannel run
+08.06_08:10:00_440 DEBUG [OptimalLinkSelector]    Action -> startHorseTask with key = e8:ed:05:fd:5c:e0
+08.06_08:10:00_538 DEBUG [OptimalLinkSelector]    Tools.getChannelType = 0
+08.06_08:10:00_539 DEBUG [OptimalLinkSelector]    XINGE Use TcpTask
+08.06_08:10:00_546 ERROR [XGService]              getStrategyItems is null
+08.06_08:10:00_547 DEBUG [BaseTask]               startTask() with strategyItems size = 28
+08.06_08:10:00_582 DEBUG [HorseThread]             HorseThread:cThread[Thread-192,5,main]current NetworkType:1,strategyItem:serverIp=203.205.211.75,serverPort=443, proxyIp=,proxyPort=80, protocolType=tcp, redirect=0
+08.06_08:10:00_590 DEBUG [httpDns]                cacheResult:{"ips":"203.205.146.122;203.205.211.75","ttl":300,"exp":1564890885710},diff:-209714880
+08.06_08:10:00_590 WARN  [httpDns]                cacheResult Exp.
+08.06_08:10:01_353 DEBUG [httpDns]                getAddrByName line:3eeef9bfa6f89c851fca55b4d11e901d3eeef9bfa6f89c8508a380b74f759b06b48b22aa98aa5d25
+08.06_08:10:01_416 DEBUG [httpDns]                ttl:300,300
+08.06_08:10:01_423 DEBUG [httpDns]                cacheResult:{"ips":"203.205.146.122;203.205.211.75","ttl":300,"exp":1565100901417},diff:299994
+08.06_08:10:01_424 DEBUG [SocketClient]           use httpdns StrategyItem:203.205.211.75:443
+08.06_08:10:01_444 DEBUG [SocketClient]           connect to 203.205.211.75:443
+08.06_08:10:18_705 TRACE [BaseTask]               Horse run onSuccess(serverIp=203.205.211.75,serverPort=443, proxyIp=,proxyPort=80, protocolType=tcp, redirect=0,0,false)
+08.06_08:10:18_924 TRACE [TpnsChannel]            ICreateSocketChannelCallback onSuccess(java.nio.SocketChannelImpl@df61e84,java.nio.SocketChannelImpl@df61e84)
+08.06_08:10:18_956 INFO  [TpnsClient]             Connect to Xinge Server succeed!
+08.06_08:10:19_233 DEBUG [TpnsChannel]            Action -> sendReconnMessage with token - 1af22fd9686fb7f9abb0c1729984bf0b9155d11a
+08.06_08:10:19_235 TRACE [TpnsChannel]            Action -> checkAndSetupClient( tpnsClient = a(ip:203.205.211.75,port:443,protocol:tcp), isClientCreating = false)
+08.06_08:10:19_240 INFO  [TpnsClient]             TpnsClient is running and ready for send and recevie msg.
+08.06_08:10:19_374 DEBUG [TpnsChannel]            Action -> clientDidSendPacket packet : h protocol = 1 command = TPNS_COMMAND_RECONNECT isResponse = false packetLength = 462
+08.06_08:10:19_686 DEBUG [TpnsChannel]            Action -> clientDidReceivePacket packet : g protocol = 1 command = TPNS_COMMAND_RECONNECT isResponse = true packetLength = 20
+08.06_08:10:19_686 DEBUG [TpnsChannel]            Action -> clientDidReceivePacket RequestSuccRunnable NEV1 : g protocol = 1 command = TPNS_COMMAND_RECONNECT isResponse = true packetLength = 20
+08.06_08:10:19_690 DEBUG [PushServiceNetworkHandler] reconnCallback onResponse request:token: 1af22fd9686fb7f9abb0c1729984bf0b9155d11a
+08.06_08:10:19_690 DEBUG [PushServiceNetworkHandler] deviceId: dff6795550305bc9cbfe5dbffe1b2d5b
+08.06_08:10:19_690 DEBUG [PushServiceNetworkHandler] networkType: 1
+08.06_08:10:19_690 DEBUG [PushServiceNetworkHandler] unregInfoList: 0, []
+08.06_08:10:19_690 DEBUG [PushServiceNetworkHandler] recvMsgList: 0, []
+08.06_08:10:19_690 DEBUG [PushServiceNetworkHandler] mutableInfo: {
+08.06_08:10:19_690 DEBUG [PushServiceNetworkHandler] 	ssid: "SSID-NAME"
+08.06_08:10:19_690 DEBUG [PushServiceNetworkHandler] 	bssid: 00:11:22:33:44:55
+08.06_08:10:19_690 DEBUG [PushServiceNetworkHandler] 	mac: 00:55:44:33:22:11
+08.06_08:10:19_690 DEBUG [PushServiceNetworkHandler] 	wflist: [{"bs":"ff:ff:ff:ff:ff:ff","ss":""},{"bs":"ff:ff:ff:ff:ff:ff","ss":"ssid-name"}] #<-- my personal data, mac addresses and bssid´s and ssid´s
+08.06_08:10:19_690 DEBUG [PushServiceNetworkHandler] }
+08.06_08:10:19_690 DEBUG [PushServiceNetworkHandler] deviceType: 0
+08.06_08:10:19_690 DEBUG [PushServiceNetworkHandler] msgClickList: null	sdkVersion: 3.26
+08.06_08:10:19_690 DEBUG [PushServiceNetworkHandler] reserved: {"new_mid":"1af22fd9686fb7f9abb0c1729984bf0b9155d11a","new_mid_v":"4.06"}
+08.06_08:10:19_690 DEBUG [PushServiceNetworkHandler] connVersion: 3
+08.06_08:10:19_690 DEBUG [PushServiceNetworkHandler] guid: 11098807404
+08.06_08:10:19_690 DEBUG [PushServiceNetworkHandler] , responseCode:0, response:confVersion: 32
+08.06_08:10:19_690 DEBUG [PushServiceNetworkHandler] appOfflinePushMsgList: 0, []
+08.06_08:10:19_690 DEBUG [PushServiceNetworkHandler] timeUs: 1565100589539547
+08.06_08:10:19_690 DEBUG [PushServiceNetworkHandler] reconnCallback onResponse rsp==null?:false
+08.06_08:10:19_690 DEBUG [PushServiceNetworkHandler] loadIPList :32
+08.06_08:10:19_868 DEBUG [PushServiceNetworkHandler] sendMessage TpnsGetApListReq:netInfo: {
+08.06_08:10:19_868 DEBUG [PushServiceNetworkHandler] 	ip: 0
+08.06_08:10:19_868 DEBUG [PushServiceNetworkHandler] 	network: 1
+08.06_08:10:19_868 DEBUG [PushServiceNetworkHandler] 	op: 0
+08.06_08:10:19_868 DEBUG [PushServiceNetworkHandler] }
+08.06_08:10:19_888 TRACE [TpnsChannel]            Action -> checkAndSetupClient( tpnsClient = a(ip:203.205.211.75,port:443,protocol:tcp), isClientCreating = false)
+08.06_08:10:19_893 DEBUG [TpnsChannel]            Action -> clientDidSendPacket packet : h protocol = 1 command = TPNS_COMMAND_GET_APLIST isResponse = false packetLength = 28
+08.06_08:10:20_143 DEBUG [TpnsChannel]            Action -> clientDidReceivePacket packet : g protocol = 1 command = TPNS_COMMAND_GET_APLIST isResponse = true packetLength = 131
+08.06_08:10:20_143 DEBUG [TpnsChannel]            Action -> clientDidReceivePacket RequestSuccRunnable NEV1 : g protocol = 1 command = TPNS_COMMAND_GET_APLIST isResponse = true packetLength = 131
+08.06_08:10:20_148 DEBUG [PushServiceNetworkHandler] sendMessage onResponse request:netInfo: {
+08.06_08:10:20_148 DEBUG [PushServiceNetworkHandler] 	ip: 0
+08.06_08:10:20_148 DEBUG [PushServiceNetworkHandler] 	network: 1
+08.06_08:10:20_148 DEBUG [PushServiceNetworkHandler] 	op: 0
+08.06_08:10:20_148 DEBUG [PushServiceNetworkHandler] }
+08.06_08:10:20_148 DEBUG [PushServiceNetworkHandler] , responseCode:0, response:apList: {
+08.06_08:10:20_148 DEBUG [PushServiceNetworkHandler] 	primary: 3, {
+08.06_08:10:20_148 DEBUG [PushServiceNetworkHandler] 		(
+08.06_08:10:20_148 DEBUG [PushServiceNetworkHandler] 			1
+08.06_08:10:20_148 DEBUG [PushServiceNetworkHandler] 			2056441291

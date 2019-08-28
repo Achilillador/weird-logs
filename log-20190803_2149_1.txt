@@ -1,0 +1,100 @@
+08.03_21:49:44_660 DEBUG [XGPushService]          reportLastServiceState {"srv_stime":1564685285669,"srv_etime":1564694287886,"srv_startTime":19,"srv_freason":[".keepalive",".keepalive",".keepalive",".keepalive",".stop_connect",".keepalive",".keepalive",".keepalive",".keepalive",".stop_connect"],"hb_suc":0,"hb_failed":26,"hb_freason":[{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1}],"con_suc":2,"con_failed":39,"con_freason":[{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1},{"errorCode":10100,"np":-1}]}
+08.03_21:49:44_777 DEBUG [TPush]                  com.xm.csee.AUTH_XGPUSH,com.xm.csee,com.tencent.android.tpush.XGPushProvider
+08.03_21:49:44_912 TRACE [PushServiceManager]     (ignore) running v3 service count 0
+08.03_21:49:44_915 TRACE [PushServiceManager]     tryToKeepServiceAlive socketFinalName:ade572bd8bdee4b85d5361556c2fa61af22fd9686fb7f9abb0c1729984bf0b9155d11a
+08.03_21:49:44_919 INFO  [aa]                     is xg_service
+08.03_21:49:44_920 INFO  [PushServiceManager]     start as main service......
+08.03_21:49:44_921 INFO  [PushServiceManager]     Service's first running at com.xm.csee version : 3.26
+08.03_21:49:44_943 TRACE [TpnsChannel]            Action -> checkAndSetupClient( tpnsClient = null, isClientCreating = false)
+08.03_21:49:44_944 DEBUG [XGHorse]                Action ->  createOptimalSocketChannel run
+08.03_21:49:44_961 DEBUG [OptimalLinkSelector]    Action -> startHorseTask with key = e8:ed:05:fd:5c:e0
+08.03_21:49:45_222 DEBUG [OptimalLinkSelector]    Tools.getChannelType = 0
+08.03_21:49:45_222 DEBUG [OptimalLinkSelector]    XINGE Use TcpTask
+08.03_21:49:45_230 ERROR [XGService]              getStrategyItems is null
+08.03_21:49:45_231 DEBUG [BaseTask]               startTask() with strategyItems size = 28
+08.03_21:49:45_237 DEBUG [HorseThread]             HorseThread:cThread[Thread-199,5,main]current NetworkType:1,strategyItem:serverIp=203.205.146.122,serverPort=8080, proxyIp=,proxyPort=80, protocolType=tcp, redirect=0
+08.03_21:49:45_243 DEBUG [httpDns]                cacheResult:{"ips":"203.205.211.75;203.205.146.122","ttl":300,"exp":1564694590250},diff:-195994993
+08.03_21:49:45_244 WARN  [httpDns]                cacheResult Exp.
+08.03_21:49:45_679 DEBUG [httpDns]                getAddrByName line:3eeef9bfa6f89c851fca55b4d11e901d3eeef9bfa6f89c8508a380b74f759b06b48b22aa98aa5d25
+08.03_21:49:45_709 DEBUG [httpDns]                ttl:300,300
+08.03_21:49:45_717 DEBUG [httpDns]                cacheResult:{"ips":"203.205.146.122;203.205.211.75","ttl":300,"exp":1564890885710},diff:299993
+08.03_21:49:45_718 DEBUG [SocketClient]           use httpdns StrategyItem:203.205.211.75:8080
+08.03_21:49:45_721 DEBUG [SocketClient]           connect to 203.205.211.75:8080
+08.03_21:49:46_269 TRACE [BaseTask]               Horse run onRedirect(org:serverIp=203.205.211.75,serverPort=8080, proxyIp=,proxyPort=80, protocolType=tcp, redirect=0,redirect:serverIp=203.205.146.122,serverPort=80, proxyIp=,proxyPort=80, protocolType=tcp, redirect=1)
+08.03_21:49:46_294 TRACE [TpnsChannel]            ICreateSocketChannelCallback onSuccess(java.nio.SocketChannelImpl@15c86f74,java.nio.SocketChannelImpl@15c86f74)
+08.03_21:49:46_297 INFO  [TpnsClient]             Connect to Xinge Server succeed!
+08.03_21:49:46_359 DEBUG [TpnsChannel]            Action -> sendReconnMessage with token - 1af22fd9686fb7f9abb0c1729984bf0b9155d11a
+08.03_21:49:46_359 TRACE [TpnsChannel]            Action -> checkAndSetupClient( tpnsClient = a(ip:203.205.211.75,port:8080,protocol:tcp), isClientCreating = false)
+08.03_21:49:46_361 INFO  [TpnsClient]             TpnsClient is running and ready for send and recevie msg.
+08.03_21:49:46_363 DEBUG [HorseThread]             HorseThread:cThread[Thread-199,5,main]current NetworkType:1,strategyItem:serverIp=203.205.146.122,serverPort=80, proxyIp=,proxyPort=80, protocolType=tcp, redirect=1
+08.03_21:49:46_374 DEBUG [httpDns]                cacheResult:{"ips":"203.205.146.122;203.205.211.75","ttl":300,"exp":1564890885710},diff:299336
+08.03_21:49:46_375 DEBUG [SocketClient]           use httpdns StrategyItem:203.205.211.75:14000
+08.03_21:49:46_379 DEBUG [TpnsChannel]            Action -> clientDidSendPacket packet : h protocol = 1 command = TPNS_COMMAND_RECONNECT isResponse = false packetLength = 462
+008.03_21:49:46_379 DEBUG [SocketClient]           connect to 203.205.211.75:14000
+08.03_21:49:46_785 DEBUG [TpnsChannel]            Action -> clientDidReceivePacket packet : g protocol = 1 command = TPNS_COMMAND_RECONNECT isResponse = true packetLength = 20
+08.03_21:49:46_786 DEBUG [TpnsChannel]            Action -> clientDidReceivePacket RequestSuccRunnable NEV1 : g protocol = 1 command = TPNS_COMMAND_RECONNECT isResponse = true packetLength = 20
+08.03_21:49:46_788 DEBUG [PushServiceNetworkHandler] reconnCallback onResponse request:token: 1af22fd9686fb7f9abb0c1729984bf0b9155d11a
+08.03_21:49:46_788 DEBUG [PushServiceNetworkHandler] deviceId: dff6795550305bc9cbfe5dbffe1b2d5b
+08.03_21:49:46_788 DEBUG [PushServiceNetworkHandler] networkType: 1
+08.03_21:49:46_788 DEBUG [PushServiceNetworkHandler] unregInfoList: 0, []
+08.03_21:49:46_788 DEBUG [PushServiceNetworkHandler] recvMsgList: 0, []
+08.03_21:49:46_788 DEBUG [PushServiceNetworkHandler] mutableInfo: {
+08.03_21:49:46_788 DEBUG [PushServiceNetworkHandler] 	ssid: "ARRIS-5CE2"
+08.03_21:49:46_788 DEBUG [PushServiceNetworkHandler] 	bssid: e8:ed:05:fd:5c:e0
+08.03_21:49:46_788 DEBUG [PushServiceNetworkHandler] 	mac: 20:2D:07:6D:1E:52
+08.03_21:49:46_788 DEBUG [PushServiceNetworkHandler] 	wflist: [{"bs":"e8:ed:05:fd:5c:e0","ss":"ARRIS-5CE2"},{"bs":"fa:8f:ca:62:0b:72","ss":""}]
+08.03_21:49:46_788 DEBUG [PushServiceNetworkHandler] }
+08.03_21:49:46_788 DEBUG [PushServiceNetworkHandler] deviceType: 0
+08.03_21:49:46_788 DEBUG [PushServiceNetworkHandler] msgClickList: null	sdkVersion: 3.26
+08.03_21:49:46_788 DEBUG [PushServiceNetworkHandler] reserved: {"new_mid":"1af22fd9686fb7f9abb0c1729984bf0b9155d11a","new_mid_v":"4.06"}
+08.03_21:49:46_788 DEBUG [PushServiceNetworkHandler] connVersion: 3
+08.03_21:49:46_788 DEBUG [PushServiceNetworkHandler] guid: 11098807404
+08.03_21:49:46_788 DEBUG [PushServiceNetworkHandler] , responseCode:0, response:confVersion: 32
+08.03_21:49:46_788 DEBUG [PushServiceNetworkHandler] appOfflinePushMsgList: 0, []
+08.03_21:49:46_788 DEBUG [PushServiceNetworkHandler] timeUs: 1564890556334275
+08.03_21:49:46_789 DEBUG [PushServiceNetworkHandler] reconnCallback onResponse rsp==null?:false
+08.03_21:49:46_789 DEBUG [PushServiceNetworkHandler] loadIPList :32
+08.03_21:49:46_799 DEBUG [PushServiceNetworkHandler] sendMessage TpnsGetApListReq:netInfo: {
+08.03_21:49:46_799 DEBUG [PushServiceNetworkHandler] 	ip: 0
+08.03_21:49:46_799 DEBUG [PushServiceNetworkHandler] 	network: 1
+08.03_21:49:46_799 DEBUG [PushServiceNetworkHandler] 	op: 0
+08.03_21:49:46_799 DEBUG [PushServiceNetworkHandler] }
+08.03_21:49:46_800 TRACE [TpnsChannel]            Action -> checkAndSetupClient( tpnsClient = a(ip:203.205.211.75,port:8080,protocol:tcp), isClientCreating = false)
+08.03_21:49:46_802 DEBUG [TpnsChannel]            Action -> clientDidSendPacket packet : h protocol = 1 command = TPNS_COMMAND_GET_APLIST isResponse = false packetLength = 28
+08.03_21:49:47_003 TRACE [BaseTask]               Horse run onRedirect(org:serverIp=203.205.211.75,serverPort=14000, proxyIp=,proxyPort=80, protocolType=tcp, redirect=0,redirect:serverIp=203.205.146.122,serverPort=443, proxyIp=,proxyPort=80, protocolType=tcp, redirect=1)
+08.03_21:49:47_003 DEBUG [XGHorse]                >> hasSuccessCallback && !strategyItem.isRedirected()
+08.03_21:49:47_026 DEBUG [TpnsChannel]            Action -> clientDidReceivePacket packet : g protocol = 1 command = TPNS_COMMAND_GET_APLIST isResponse = true packetLength = 131
+08.03_21:49:47_026 DEBUG [TpnsChannel]            Action -> clientDidReceivePacket RequestSuccRunnable NEV1 : g protocol = 1 command = TPNS_COMMAND_GET_APLIST isResponse = true packetLength = 131
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] sendMessage onResponse request:netInfo: {
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 	ip: 0
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 	network: 1
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 	op: 0
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] }
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] , responseCode:0, response:apList: {
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 	primary: 3, {
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 		(
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 			1
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 			2056441291
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 		)
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 		(
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 			3
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 			2056441291
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 		)
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 		(
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 			2
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 			2056441291
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 		)
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 	}
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 	secondary: 3, {
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 		(
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 			1
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 			4092199863
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 		)
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 		(
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 			3
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 			2992826551
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 		)
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 		(
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 			2
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 			2119301946
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 		)

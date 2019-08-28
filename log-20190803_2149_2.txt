@@ -1,0 +1,105 @@
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 	}
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 	backup: 3574216650
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 	domain: 
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 	portList: 4, [
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 		8080
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 		14000
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 		80
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 		443
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 	]
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 	speedTestIpList: 6, [
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 		2056441291
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 		2056441291
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 		2056441291
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 		4092199863
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 		2119301946
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 		2992826551
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] 	]
+08.03_21:49:47_028 DEBUG [PushServiceNetworkHandler] }
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] sendMessage onResponse.apList:primary: 3, {
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 	(
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 		1
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 		2056441291
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 	)
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 	(
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 		3
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 		2056441291
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 	)
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 	(
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 		2
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 		2056441291
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 	)
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] }
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] secondary: 3, {
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 	(
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 		1
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 		4092199863
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 	)
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 	(
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 		3
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 		2992826551
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 	)
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 	(
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 		2
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 		2119301946
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 	)
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] }
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] backup: 3574216650
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] domain: 
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] portList: 4, [
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 	8080
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 	14000
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 	80
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 	443
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] ]
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] speedTestIpList: 6, [
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 	2056441291
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 	2056441291
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 	2056441291
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 	4092199863
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 	2119301946
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] 	2992826551
+08.03_21:49:47_031 DEBUG [PushServiceNetworkHandler] ]
+08.03_21:49:47_032 DEBUG [TPush]                  apList.primary serverItem ip:203.205.146.122,port:8080
+08.03_21:49:47_032 DEBUG [TPush]                  apList.primary serverItem ip:203.205.146.122,port:14000
+08.03_21:49:47_032 DEBUG [TPush]                  apList.primary serverItem ip:203.205.146.122,port:80
+08.03_21:49:47_032 DEBUG [TPush]                  apList.primary serverItem ip:203.205.146.122,port:443
+08.03_21:49:47_032 DEBUG [TPush]                  apList.primary serverItem ip:203.205.146.122,port:8080
+08.03_21:49:47_033 DEBUG [TPush]                  apList.primary serverItem ip:203.205.146.122,port:14000
+08.03_21:49:47_033 DEBUG [TPush]                  apList.primary serverItem ip:203.205.146.122,port:80
+08.03_21:49:47_033 DEBUG [TPush]                  apList.primary serverItem ip:203.205.146.122,port:443
+08.03_21:49:47_033 DEBUG [TPush]                  apList.primary serverItem ip:203.205.146.122,port:8080
+08.03_21:49:47_033 DEBUG [TPush]                  apList.primary serverItem ip:203.205.146.122,port:14000
+08.03_21:49:47_033 DEBUG [TPush]                  apList.primary serverItem ip:203.205.146.122,port:80
+08.03_21:49:47_034 DEBUG [TPush]                  apList.primary serverItem ip:203.205.146.122,port:443
+
+08.03_21:49:47_034 DEBUG [TPush]                  apList.secondary serverItem ip:183.3.234.243,port:8080
+08.03_21:49:47_034 DEBUG [TPush]                  apList.secondary serverItem ip:183.3.234.243,port:14000
+08.03_21:49:47_034 DEBUG [TPush]                  apList.secondary serverItem ip:183.3.234.243,port:80
+08.03_21:49:47_034 DEBUG [TPush]                  apList.secondary serverItem ip:183.3.234.243,port:443
+
+08.03_21:49:47_034 DEBUG [TPush]                  apList.secondary serverItem ip:183.232.98.178,port:8080
+08.03_21:49:47_035 DEBUG [TPush]                  apList.secondary serverItem ip:183.232.98.178,port:14000
+08.03_21:49:47_035 DEBUG [TPush]                  apList.secondary serverItem ip:183.232.98.178,port:80
+08.03_21:49:47_035 DEBUG [TPush]                  apList.secondary serverItem ip:183.232.98.178,port:443
+
+08.03_21:49:47_035 DEBUG [TPush]                  apList.secondary serverItem ip:58.251.81.126,port:8080
+08.03_21:49:47_035 DEBUG [TPush]                  apList.secondary serverItem ip:58.251.81.126,port:14000
+08.03_21:49:47_035 DEBUG [TPush]                  apList.secondary serverItem ip:58.251.81.126,port:80
+08.03_21:49:47_036 DEBUG [TPush]                  apList.secondary serverItem ip:58.251.81.126,port:443
+
+08.03_21:49:47_067 DEBUG [TPush]                  apList.speedTestIpList serverItem ip:2056441291,port:8080
+08.03_21:49:47_067 DEBUG [TPush]                  apList.speedTestIpList serverItem ip:2056441291,port:14000
+08.03_21:49:47_068 DEBUG [TPush]                  apList.speedTestIpList serverItem ip:2056441291,port:80
+08.03_21:49:47_068 DEBUG [TPush]                  apList.speedTestIpList serverItem ip:2056441291,port:443
+08.03_21:49:47_068 DEBUG [TPush]                  apList.speedTestIpList serverItem ip:2056441291,port:8080
+08.03_21:49:47_068 DEBUG [TPush]                  apList.speedTestIpList serverItem ip:2056441291,port:14000
+08.03_21:49:47_068 DEBUG [TPush]                  apList.speedTestIpList serverItem ip:2056441291,port:80
+08.03_21:49:47_068 DEBUG [TPush]                  apList.speedTestIpList serverItem ip:2056441291,port:443
+08.03_21:49:47_069 DEBUG [TPush]                  apList.speedTestIpList serverItem ip:2056441291,port:8080
+08.03_21:49:47_069 DEBUG [TPush]                  apList.speedTestIpList serverItem ip:2056441291,port:14000
+08.03_21:49:47_069 DEBUG [TPush]                  apList.speedTestIpList serverItem ip:2056441291,port:80
+08.03_21:49:47_069 DEBUG [TPush]                  apList.speedTestIpList serverItem ip:2056441291,port:443
+
+08.03_21:49:47_069 DEBUG [TPush]                  apList.speedTestIpList serverItem ip:4092199863,port:8080
+08.03_21:49:47_069 DEBUG [TPush]                  apList.speedTestIpList serverItem ip:4092199863,port:14000
